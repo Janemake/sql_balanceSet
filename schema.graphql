@@ -1,0 +1,8 @@
+
+type BalanceSet @entity {
+  id: ID!
+  accountSet: String!
+  freeAmount: BigInt
+  reservedAmount: BigInt
+  timestamp: Date!
+}
