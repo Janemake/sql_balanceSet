@@ -4,5 +4,5 @@ type BalanceSet @entity {
   accountSet: String!
   freeAmount: BigInt
   reservedAmount: BigInt
-  timestamp: Date!
+  timestamp: Date
 }

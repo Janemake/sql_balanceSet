@@ -18,7 +18,7 @@ export class BalanceSet implements Entity {
 
     public reservedAmount?: bigint;
 
-    public timestamp: Date;
+    public timestamp?: Date;
 
 
     async save(): Promise<void>{
